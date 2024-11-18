@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuración del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Encabezado principal */
+header {
+    text-align: center;
+    background-color: #ff6f61; /* Color llamativo para captar atención */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilo del contenido principal */
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Secciones individuales */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #ff6f61;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #ff6f61;
+    padding-bottom: 5px;
+}
+
+section p {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+/* Imágenes */
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Enlaces */
+a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff3b2f;
+    text-decoration: underline;
+}
+
+/* Formulario */
+form {
+    margin-top: 15px;
+    background-color: #fff8e1;
+    padding: 15px;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #ff3b2f;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ffcc00;
+}
+
+footer a:hover {
+    color: #fff8e1;
+}
